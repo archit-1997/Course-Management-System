@@ -31,7 +31,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.5</version>
                 <configuration>
-                    <executable>/home/rohan/.jdks/openjdk-15.0.1/bin/java</executable>
+                    <executable>${env.JAVA_EXEC}</executable>
                     <mainClass>org.cms.Main</mainClass>
                 </configuration>
             </plugin>
